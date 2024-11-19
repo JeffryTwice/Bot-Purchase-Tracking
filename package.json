@@ -1,0 +1,15 @@
+{
+  "name": "discord-steam-tracker",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.3.1",
+    "jsdom": "^22.1.0",
+    "node-fetch": "^3.3.2"
+  }
+}
